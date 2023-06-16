@@ -1,0 +1,18 @@
+body{
+    margin: 0
+}
+header{
+    background: #03a9fa;
+    text-align: center;
+}
+
+.logo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+
+header input{
+    font-size: 20px;
+    margin: 20px 0px;
+}
