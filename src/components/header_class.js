@@ -48,4 +48,25 @@ class Header extends Component{
     }
 }
 
-export default Header
+class Header2 extends Component{
+
+    state = {
+        title: 'The keywords are: ',
+        keywords: '',
+        count: 0
+    }  
+
+
+    render(){
+        return (
+            <>
+            <header> 
+                <div className="logo" onClick={()=>{console.log('I was clicked')}}>Daily News</div>
+                <input onChange={(e)=>this.inputChange(e)}/>
+            </header>
+            </>
+        )
+    }
+}
+
+export default Header2
