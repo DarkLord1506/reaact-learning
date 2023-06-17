@@ -18,9 +18,10 @@ class App extends Component {
       <div className="hey">
         <Header />
         <NewsList
-            news = {this.state.news}  
-        
-        />
+            news = {this.state.news}>
+                <br/>
+                <h1>I am children</h1>
+                </NewsList>  
         </div>
         <Footer text = {this.state.footerText}/>
       </>
