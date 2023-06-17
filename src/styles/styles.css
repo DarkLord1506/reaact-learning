@@ -23,3 +23,10 @@ header input{
     box-sizing: border-box;
     border-bottom: 1px solid grey;
 }
+
+.active{
+    background-color: aqua;
+}
+.not-active{
+    background-color: burlywood;
+}
